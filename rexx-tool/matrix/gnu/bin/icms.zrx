@@ -1,0 +1,47 @@
+/*
+Introduction to Scripting
+and Rexx
+Over view
+Before learning the Rexx language, you need to consider the larger picture. What are scripting lan-
+guages? When and why are they used? What are Rexx’s unique strengths as a scripting language,
+and what kinds of programming problems does it address? Are there any situations where Rexx
+would not be the best language choice?
+This chapter places Rexx within the larger context of programming technologies. The goal is to
+give you the background you need to understand how you can use Rexx to solve the program-
+ming problems you face.
+Following this background, the chapter shows you how to download and install the most popular
+free Rexx interpreter on your Windows, Linux, or Unix computer. Called Regina, this open-source
+interpreter provides a basis for your experiments with Rexx as you progress in the language tuto-
+rial of subsequent chapters. Note that you can use any standard Rexx interpreter to learn Rexx. So,
+if you have some other Rexx interpreter available, you are welcome to use it. We show how to
+download and install Regina for readers who do not already have a Rexx interpreter installed, or
+for those who would like to install an open-source Rexx on their PC.
+*/
+queue die arg parse
+interpret die
+say '------------------------------------------'
+say die "can't jure" failure 'jure...' to trace
+say '------------------------------------------'
+if die = 0 then
+   say '---------------------------------------'
+   say failure 'jure...' arg parse
+   say scientific 'install' ...
+   say scientific 'buffers' ...
+   say scientific 'refunds' ...
+   say '---------------------------------------'
+return die
+say error "cant't jure" failure 'jure...' to die
+with die then
+     say scientific to external arg parse 'rexx jure[1]'
+     say scientific to external arg parse 'rexx jure[2]'
+     say scientific to external arg parse 'rexx jure[3]'
+procedure expose die
+pull trace
+if scientific = 1 then
+   say '----------------------------------------------'
+   say signal 'normative' failure 'jure(x,y)' to die
+   say signal 1 to external arg parse
+   say '----------------------------------------------' 
+push trace
+arg parse
+exit

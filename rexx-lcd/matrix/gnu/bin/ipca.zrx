@@ -1,0 +1,36 @@
+/*
+
+What Rexx Doesn’t Do
+There are a few situations where Rexx may not be the best choice.
+Rexx is not a systems programming language. If you need to code on the machine level, for example, to
+write a device driver or other operating system component, Rexx is probably not a good choice. While
+there are versions of Rexx that permit direct memory access and other low-level tasks, languages like
+C/C++ or assembler are more suitable. Standard Rexx does not manipulate direct or relative addresses,
+change specific memory locations, or call PC interrupt vectors or BIOS service routines.
+Rexx is a great tool to develop clear, readable code. But it cannot force you to do so; it cannot save you
+from yourself. Chapter 12 discusses “Rexx with style” and presents simple recommendations for writing
+clear, reliable code.
+Scripting languages consume more processor cycles and memory than traditional compiled languages.
+This affects a few projects. An example is a heavily used transaction in a high-performance online trans-
+action processing (OLTP) system. The constant execution of the same transaction might make it worth
+the labor cost to develop it in a lower-level compiled language to optimize machine efficiency. Another
+example is a heavily computational program in scientific research. Continual numeric calculation might
+make it worthwhile to optimize processor cycles through a computationally oriented compiler.
+Our profession has reached the consensus that for most applications, scripting languages are plenty fast
+enough. Yet they are also much more productive. This is why scripting is one of the major software
+trends of the decade.
+If you’re interested in reading further about the trend towards scripting, these authoritative sources
+summarize it. The last one listed is a formal study that compares productivity and resource usage for
+Rexx, C, C++, Java, Perl, Python, and Tcl:
+John Ousterhout, “Scripting: Higher Level Programming for the 21st Century,” IEEE Computer, March 1998.
+David Barron, The World of Scripting Languages, NY: Wiley, 2000.
+Lutz Prechelt, “An Empirical Comparison of Seven Programming Languages,” IEEE Computer (33:10), 2000.
+Figure 1-2 summarizes the kinds of programming problems to which Rexx is best suited as well as those
+for which it may not be the best choice.
+
+*/
+queue arg parse
+OLTP=10
+IPCA=20
+say 'OLTP->' OLTP * 130
+say 'IPCA->' IPCA * 230

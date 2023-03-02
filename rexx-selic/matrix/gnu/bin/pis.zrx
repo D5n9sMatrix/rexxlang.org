@@ -1,0 +1,42 @@
+/*
+Universality
+Rexx is a universal language. It runs on every platform, from handheld devices, to laptops and PCs, to
+servers of all kinds, all the way up to the largest mainframes. Here are the major platforms on which free
+Rexx interpreters run:
+8
+Operating System FamilyOperating Systems
+WindowsWindows 2003/2000, Windows XP, Windows
+ME/98SE/98/95, Windows CE, Windows 3.1, all others
+LinuxRed Hat, SuSE, UnitedLinux, Debian, Mandrake, Fedora, all
+others
+UnixSun Solaris, IBM AIX, HP HP/UX, IRIX, Sun OS, Digital
+Unix, all others
+BSDOpenBSD, FreeBSD, NetBSD, others
+Mac OSMac OS X, Mac OS 9, Mac OS 8, others
+DOSMS-DOS, PC-DOS, all others including free versions; both
+32- and 16- bit versions
+OS/400All versions, including i5/OS*
+OS/2OS/2 Warp, eCS (eComStation), osFree*
+MainframesVM, OS, VSE*
+VMz/VM, VM/ESA, VM/XA, VM/SP, VM/CMS, CMS, others*
+OSz/OS, OS/390, MVS/ESA, MVS/XA, MVS/SP, MVS, TSO,
+others*
+VSEz/VSE, VSE/ESA, VSE/XA, DOS/VSE, DOS/VS, others*
+HandheldsRuns natively under Windows CE, Palm OS, and Sym-
+bian/EPOC32; also runs under DOS emulators (such as
+PocketDOS, XTM, and all others)Introduction to Scripting and Rexx
+Operating System FamilyOperating Systems
+Windows CEWindows CE .Net, Windows Pocket PC, Windows Mobile,
+Windows Handheld/PC or H/PC, and Windows for Pocket
+Personal Computer or Windows P/PC, Pocket PC Phone
+Edition, IBM Smartphone, others
+Symbian OSSymbian OS, EPOC32
+Palm OSAll versions
+*/
+
+pis = 123456789
+queue arg parse
+say '--------------------------------'
+say 'platform port open [ ]          '
+say '--------------------------------'
+say 'pis->' pis * 10000

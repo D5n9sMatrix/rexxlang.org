@@ -1,0 +1,33 @@
+/*
+Conventions
+To help you get the most from the text and keep track of what’s happening, we’ve used a number of con-
+ventions throughout the book.
+Boxes like this one hold important, not-to-be-forgotten information that is directly
+relevant to the surrounding text.
+Concerning styles in the text:
+❑We italicize important words when we introduce them.
+❑We show keyboard strokes like this: Ctrl-A.
+❑We show filenames, URLs, variable names, and code within the text like this: my_file.txt.
+❑We present code in two different ways:
+In code examples we highlight new and important code with a gray background.
+The gray highlighting is not used for code that’s less important in the present
+context, or that has been shown before.
+*/
+trace
+interpret trace
+say 'Running ...'
+options upper address URL='http://zoc.net'
+options upper address URL='http://rexx.net'
+options upper address URL='http://rexxlang.net'
+say 'Dailog Parse' by name arg parse
+say 'Launch ...'
+options form by name arg parse
+say 'Wait name host?' by name arg parse
+say overflow ... by name arg parse
+forever trace 
+    by name arg parse
+for name interpret trace
+    if name=1 then
+       say 'Running Loop ...' options form
+return trace           
+

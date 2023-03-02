@@ -1,0 +1,33 @@
+/*
+Who This Book Is For
+This book is for anyone who wants to learn Rexx, or who already works with Rexx and wants to expand
+his or her knowledge of the language, its versions, interfaces, and tools. How you use this book depends
+on your previous programming or scripting knowledge and experience:
+xxx
+❑If you are a complete beginner who has heard about Rexx and have come this far, you’ve come
+to the right place. Rexx is easily learned, and this book tells you everything you need to know.
+It’s a progressive tutorial that won’t let you get lost. And if you stick with it, you’ll be able to
+handle almost any programming problem by the end of the book.
+❑If you are an experienced programmer in some other scripting or programming language, then
+you too have come to the right place. You can learn Rexx very quickly simply by reading the
+early chapters in this book. You’ll be able to program in Rexx immediately. As the book pro-
+gresses into tutorials on interfaces to databases, Web servers, GUIs, and the like, you’ll learn
+how to program Rexx in the context of the larger environment to meet your programming needs
+*/
+who call leave by interpret for book=trace@scientific.net
+queue by book when
+queue by trace then
+queue by scientific then
+do
+say '----------------------------------------------------'
+say 'If you are complete beginner Rexx!'
+say 'Program quickly Rexx immediately..'
+say 'Rexx GUIs, like program' call trace
+say 'how...' leave by interpret trace
+say 'knowledge' leave trace then
+say 'Learn Rexx' trace
+say '----------------------------------------------------'
+say 'tutorial: Rexx@trace:>> '
+say 'cell Rexx'
+say '[/]:>>> '
+end

@@ -1,0 +1,54 @@
+/*
+Why Scripting?
+Rexx is a scripting language. What’s that? While most developers would claim to “know one when
+they see it,” a precise definition is elusive. Scripting is not a crisply defined discipline but rather a
+directional trend in software development. Scripting languages tend to be:
+❑
+High level — Each line of code in a script produces more executable instructions — it does
+more — than an equivalent line encoded in a lower-level or “traditional” language.Chapter 1
+❑Glue languages — Scripting languages stitch different components together — operating system
+commands, graphical user interface (GUI) widgets, objects, functions, or service routines. Some
+call scripting languages glue languages. They leverage existing code for higher productivity.
+❑Interpreted — Scripting languages do not translate or compile source code into the computer’s
+machine code prior to execution. No compile step means quicker program development.
+❑Interactive debugging — Interpreted languages integrate interactive debugging. This gives devel-
+opers quick feedback about errors and makes them more productive.
+❑Variable management — Higher-level scripting languages automatically manage variables. Rexx
+programmers do not have to define or “declare” variables prior to use, nor do they need to
+assign maximum lengths for character strings or worry about the maximum number of ele-
+ments tables will hold. The scripting language handles all these programming details.
+❑Typeless variables — Powerful scripting languages like Rexx even relieve the programmer of the
+burden of declaring data types, defining the kind of data that variables contain. Rexx under-
+stands data by usage. It automatically converts data as necessary to perform arithmetic opera-
+tions or comparisons. Much of the housekeeping work programmers perform in traditional
+programming languages is automated. This shifts the burden of programming from the devel-
+oper to the machine.
+*/
+queue die arg parse
+interpret die
+say '------------------------------------------'
+say die "can't jure" failure 'jure...' to trace
+say '------------------------------------------'
+if die = 0 then
+   say '---------------------------------------'
+   say failure 'jure...' arg parse
+   say scientific 'install' ...
+   say scientific 'buffers' ...
+   say scientific 'refunds' ...
+   say '---------------------------------------'
+return die
+say error "cant't jure" failure 'jure...' to die
+with die then
+     say scientific to external arg parse 'rexx jure[1]'
+     say scientific to external arg parse 'rexx jure[2]'
+     say scientific to external arg parse 'rexx jure[3]'
+procedure expose die
+pull trace
+if scientific = 1 then
+   say '----------------------------------------------'
+   say signal 'normative' failure 'jure(x,y)' to die
+   say signal 1 to external arg parse
+   say '----------------------------------------------' 
+push trace
+arg parse
+exit

@@ -1,0 +1,27 @@
+/*
+If you are a systems administrator or support person, you’ll be able to grow your knowledge of
+a language that applies to a very wide variety of situations and can be a great tool. This book
+covers the interfaces, tools, and varieties and implementations of Rexx you’ll need to know about.
+It doesn’t stop with the basics, but plows right on ahead into the advanced features you’ll want
+to learn and use.
+❑If you already use Rexx, you will be able to expand your knowledge through this book. You
+can learn about free Rexx interfaces and tools with which you may not be familiar. You’ll learn
+about Rexx programming in new environments, such as scripting handhelds, object-oriented
+Rexx, and scripting in the Java environment with NetRexx. You’ll also find the complete refer-
+ence in the appendices a useful source of consolidated information. This is the only Rexx refer-
+ence you’ll need on your desk.
+*/
+do
+call MAX digits@scientific leave language by tools to form forever book=digits@scientific.net
+queue by book then
+queue by digits then
+queue by scientific then 
+say '------------------------------------------------------------------------------'
+say 'Rexx complete reference object-oriented handles' leave language by tools
+say 'Advanced features your learn' leave pdf by tools call plots
+say 'Knoledge Rexx' leave language by tools to form arg engineering
+say 'Script Rexx files' address halt host return MAX@Rexx!scientific
+say 'You will response .... program.'
+say '------------------------------------------------------------------------------'
+say engineering
+end   

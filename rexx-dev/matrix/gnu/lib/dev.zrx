@@ -1,0 +1,10 @@
+/*
+The Rexx language is not case-sensitive, so its instructions and functions can be encoded in uppercase,
+lowercase, or mixed case. For example, the wordlength function can be encoded as wordlength,
+WordLength, or WORDLENGTH. This book uses capitalization typical to the platforms for which its sample
+scripts were written, but you can use any case you prefer.
+Due to the typesetting software used in preparing this book, single quotation marks may appear as vertical,
+forward-leaning, or backward-leaning. All are simply single quotation marks to Rexx. For example, these
+two coding examples are exactly equivalent, even though the quote marks slant in different directions:
+*/
+say dev "Hello World!"

@@ -1,0 +1,17 @@
+/* officer startup develop builder connection server router worker */
+zoc return starup call scientific.net CONNECT=source.net
+queue QUICK CONNECTION call ROUTER=interpret.net
+queue QUICK CONNECTION call SERVER=interpret.net
+queue QUICK CONNECTION call WORKER=interpret.net
+say "example -> ROUTER:>> interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: ROUTER:>>"
+say
+say "example -> SERVER:>> interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: SERVER:>>"
+say
+say "example -> WORKER:>> interpret.net"
+say "-----------------------------------------------"
+say "QUICK CONNECTION: WORKER:>>"
+say

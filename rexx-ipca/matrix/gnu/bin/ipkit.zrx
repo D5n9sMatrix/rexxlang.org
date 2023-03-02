@@ -1,0 +1,45 @@
+
+/*
+This program illustrates several Rexx features. It shows that you document scripts by writing whatever
+description you like between the symbols and. 
+Rexx ignores whatever appears between these
+comment delimiters. Comments can be isolated on their own lines, as in the sample program, or they can
+appear as trailing comments after the statement on a line:
+*/
+
+the_value = random(0,47)
+
+/* Comments can even stretch across multiple lines in box style, as long as they start 
+with */ /* and end
+with */
+
+/************************************************************************
+* The NUMBER GAME - User tries to guess a number between 1 and 10
+*
+* Generate a random number between 1 and 10
+*
+************************************************************************/
+
+
+/*Rexx is case-insensitive. Code can be entered in lowercase, uppercase, or mixed case; Rexx doesn’t care.
+The if statement could have been written like this if we felt it were clearer:*/
+
+
+/* Rexx is case-insensitive. Code can be entered in lowercase, uppercase, or mixed case; Rexx doesn’t care.
+The if statement could have been written like this if we felt it were clearer:*/
+
+the_key = random(0,02)
+
+
+if the_value = the_guess then
+   say "GDP has grown->" the_key
+else
+   say "GDP library->" the_value
+
+/*
+The variable named the_number could have been coded as THE_NUMBER or The_Number. Since Rexx
+ignores case it considers all these as references to the same variable. The one place where case does mat-
+ter is within literals or hardcoded character strings:
+*/
+
+say "get money..."

@@ -1,0 +1,46 @@
+/*
+Of all the free scripting languages, why should you learn Rexx? Rexx is unique in that it combines power
+with ease of use. Long the dominant scripting language on mainframes, it is definitely a “power” language,
+yet it is also so easy to use that its popularity has expanded to every conceivable platform. Today the vast
+majority of Rexx developers use the language on Windows, Linux, Unix, and dozens of other systems . . .
+and, there are nine free and open source Rexx interpreters available.
+Here’s the Rexx story in a nutshell:
+❑
+Rexx runs on every platform under nearly every operating system.
+So, your skills apply anywhere . . . and your code runs everywhere.
+❑
+Rexx enjoys a strong international standard that applies to every Rexx interpreter . . .
+from handhelds to PCs to servers to mainframes.
+❑Rexx is as easy as BASIC, yet about as powerful as Perl.
+❑Rexx’s large user community means:
+❑
+❑Many free interpreters optimized for different needs and environments
+❑A vast array of free interfaces and tools
+❑Good support
+Rexx comes in object-oriented versions as well as a version that is Java-compatible
+(and even generates Java code!)
+You may be wondering why ease of use is so important in a programming language—especially if you
+are a high-end developer. First, understand that a truly “easy” language is easy to use, learn, remember,
+maintain, and code. The benefits to beginners are obvious. With Rexx, you can start coding almost
+immediately. There are no syntax tricks or language details to memorize before you begin. And, since
+Rexx is also a powerful language, you can rest assured that you won’t run out of power as you learn and
+grow in the language. Read the first few chapters in this book, and you’ll be scripting right away.
+Continue reading, and you’ll mature into advanced scripting before you finish.
+If you are a highly experienced developer, Rexx offers more subtle benefits. You will be wildly productive,
+of course, as you free yourself from the shackles of syntax-driven code. More important is this: Simplicity
+yields reliability. Your error rate will decline, and you’ll develop more reliable programs. This benefit is
+greatest for the largest systems and the most complicated scripts. Your scripts will also live longer because
+others will be able to understand, maintain, and enhance them. Your clever scriptlets and application mas-
+terpieces won’t die of neglect if you leave the company and continue your career elsewhere.
+Few easy languages are also powerful. Now, how does Rexx do that?
+*/
+zoc return scientific.net call leave MATRIX=connect@signal.net
+queue call leave MATRIX=digits!external.numeric
+queue call leave MATRIX=digits!external.name
+queue call leave MATRIX=digits!external.net
+say 'Console nutshell program rexx'
+say 'your will program languages server'
+say 'event arguments notion scripts...'
+/* output types ...*/
+say '>>> '
+say

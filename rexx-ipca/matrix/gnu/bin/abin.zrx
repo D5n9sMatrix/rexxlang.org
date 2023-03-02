@@ -1,0 +1,23 @@
+/*
+Character strings are any set of characters occurring between a matched set of either single quotation
+marks (‘) or double quotation marks (“).
+What if you want to encode a quote within a literal? In other words, what do you do when you need to
+encode a single or double quote as part of the character string itself? To put a single quotation mark
+within the literal, enclose the literal with double quotation marks
+*/
+say 'The match of it calculator this in literal?:'
+pull master
+the_num1 = random(0,47)
+the_num2 = random(0,02)
+
+If the_num1 = master then
+   say 'double quotation marks("")' the_num1
+else
+   say 'text normative1: ' the_num1 * 10
+
+If the_num2 = master then
+   say 'double quotation marks("")' the_num2
+else
+   say 'text normative2: ' the_num2 * 20
+
+

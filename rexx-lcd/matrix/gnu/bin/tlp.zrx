@@ -1,0 +1,68 @@
+/*
+Typical Rexx Applications
+Rexx is a general-purpose language. It is designed to handle diverse programming needs. Its power
+gives it the flexibility to address almost any kind of programming problem. Here are examples.
+❑
+As a “glue” language — Rexx has long been used as a high-productivity “glue” language for
+stitching together existing commands, programs, and components. Rexx offers a higher-level
+interface to underlying system commands and facilities. It leverages services, functions, objects,
+widgets, programs, and controls.
+9Chapter 1
+10
+❑Automating repetitive tasks — Rexx scripts automate repetitive tasks. You can quickly put together
+little scripts to tailor the environment or make your job easier. Rexx makes it easy to issue com-
+mands to the operating system (or other environments or programs) and react to their return
+codes and outputs.
+❑Systems administration — Rexx is a high-level, easy-to-read, and easy-to-maintain way to script
+system administration tasks. By its nature, systems administration can be complex. Automating
+it with an easily understood language raises system administration to a higher, more abstract,
+and more manageable level. If you ever have to enhance or maintain systems administration
+scripts, you’ll be thankful if they’re written in Rexx instead of some of the alternatives!
+❑Extending the operating system — You typically run Rexx scripts simply by typing their name at
+the operating system’s command prompt. In writing scripts, you create new operating system
+“commands” that extend or customize the operating system or programming environment.
+❑Application interfaces — Rexx scripts can create flexible user interfaces to applications programmed
+in lower-level or compiled languages.
+❑Portable applications — Rexx’s standardization and extensive cross-platform support make it a good
+choice for applications that must be ported across a range of systems. Its readability and ease of
+maintenance make it easy to implement whatever cross-platform enhancements may be desired.
+For example, while Rexx is the same across platforms, interfaces often vary. Standardizing the
+scripting language isolates changes to the interfaces.
+❑Prototyping and exploratory programming — Since Rexx supports quick development, it is ideal for
+developing prototypes, whether those prototypes are throw-aways or revisable. Rexx is also
+especially suitable for exploratory programming or other development projects apt to require
+major revision.
+❑Personal programming — An easy-to-use scripting language offers the simplicity and the speedy
+development essential to personal programming. PCs and handheld devices often require per-
+sonal programming.
+❑Text processing — Rexx provides outstanding text processing. It’s a good choice for text process-
+ing applications such as dynamically building commands for programmable interfaces, refor-
+matting reports, text analysis, and the like.
+❑Handheld devices — Small devices require compact interpreters that are easy to program. Rexx is
+quite useful for PDAs, Palm Pilots, Pocket PCs and handheld PCs, and mobile and smart
+phones.
+❑Migration vehicle — Given its cross-platform strengths, Rexx can be used as a migration vehicle
+to transfer personnel skills and migrate legacy code to new platforms.
+❑Macro programming — Rexx provides a single macro language for the tools of the programming
+environment: editors, text processors, applications, and other languages. Rexx’s strengths in
+string processing play to this requirement, as does the fact it can easily be invoked as a set of
+utility functions through its standardized application programming interface, or API.
+❑Embeddable language — ANSI Rexx is defined as a library which can be invoked from outside
+applications by its standard API. Rexx is thus a function library that can be employed as an
+embeddable utility from other languages or systems.
+*/
+queue arg parse
+say '--------------------------------------------'
+say 'Typical Rexx Application'
+say '--------------------------------------------'
+say ...
+
+/*
+❑
+Mathematical applications — Rexx performs computations internally in decimal arithmetic, rather
+than in the binary or floating-point arithmetic of most programming languages. The result is
+that Rexx always computes the same result regardless of the underlying platform. And, it gives
+precision to 999999 decimal places! But Rexx is not suitable for all mathematical applications.
+Advanced math functions are external add-ins rather than built-in functions for most Rexx
+interpreters, and Rexx performs calculations slowly compared to other languages.
+*/

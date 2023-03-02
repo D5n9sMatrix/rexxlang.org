@@ -1,0 +1,75 @@
+/*
+Which Rexx?
+There are at least six free implementations of what we refer to as standard or classic Rexx. This is Rexx as
+defined by the TRL-2 standard mentioned earlier. There are also two object-oriented supersets of classic
+procedural Rexx. And, there is NetRexx, the free Rexx-like language that runs in a Java Virtual Machine
+and presents an alternative to Java for developing applets and applications. Which Rexx should you use?
+The first half of this book teaches classic Rexx. It applies to any standard Rexx interpreter on any platform.
+Once you know standard Rexx you can easily pick up the extensions unique to any Rexx interpreter. You
+can also easily learn interface programming, how to use Rexx tools and packages, object-oriented Rexx,
+NetRexx, or any Rexx variant. After all, the whole point of Rexx is ease of learning!
+This table summarizes the free Rexx interpreters.
+12
+Rexx
+InterpreterPlatformsCost and
+LicensingDistribution
+ReginaAll platformsFree. Open source. GNU
+Library General Public
+License or Lesser General
+Public License (LGPL)Binaries or Source
+Rexx/imcUnix, Linux,
+BSDFree. Copyrighted freeware.
+No warranty, distributed as is.Binaries or SourceIntroduction to Scripting and Rexx
+Rexx
+InterpreterPlatformsCost and
+LicensingDistribution
+BrexxWindows, Win CE,
+DOS (32- and
+16- bit), Linux,
+Unix, Mac OS,
+Amiga, othersFreeware. Free for personal
+and nonprofit use, fee for
+commercial use.Binaries or Source
+ReginaldWindowsFreeware. No warranty,
+distributed as is.Windows Installer
+Binaries
+r4WindowsFreeware. Limited warranty.Binaries
+Rexx for
+Palm OSPalm OSShareware. Free for personal
+use, fee for commercial use.Binaries
+Open Object
+Rexx (formally
+known as
+Object REXX
+or IBM Object
+REXX)Linux, Windows,
+Solaris, AIXFree. Distributed under the
+Common Public License.
+Previously developed and
+supported by IBM. Today
+enhanced and maintained by
+the Rexx Language Association.
+See Chapter 27 for full information.Binaries or Source
+roo!WindowsFreeware. Limited warranty.Binaries
+NetRexxAny platform
+running a Java
+Virtual Machine
+(JVM)Free. IBM License Agreement for
+IBM Employee-Written Software.
+No warranty, distributed as is.Binaries
+All these interpreters meet the TRL-2 Rexx language standard. The single exception is NetRexx, which is
+best termed a “Rexx-like” language. Any standard Rexx you have installed can be used for working with
+the sample code in the first half of this book. This includes all the previously listed interpreters (except
+NetRexx), as well as standard Rexx interpreters bundled with mainframe or other operating systems.
+To get you up and programming quickly, we defer closer consideration of the unique strengths of the
+various Rexx interpreters and the differences between them. If you need to know more right now, skip
+ahead to Chapter 19. That chapter discusses the evolution of Rexx and the roles it plays as a prominent
+scripting language. It describes all the free Rexx interpreters listed above and presents the strengths of
+each. Chapters 20 through 30 then show how and where to download and install each Rexx product.
+They describe the unique features of each interpreter and demonstrate many of them in sample scripts.
+If you’re new to Rexx, we recommend starting with Regina Rexx. Regina Rexx is a great place to start for
+several reasons:
+*/
+queue arg parse
+NTNB=10
+say 'NTNB->' NTNB * 380

@@ -1,0 +1,29 @@
+/* Officer Working Connection compile program  */
+zoc call "Office Router"
+zoc call "Office Server"
+zoc call "Office worker"
+
+/* output type say file */
+say "Office Router: " 
+zoc OfficeRouter=secret@secure.net
+say "Office Server: " 
+zoc OfficeServer=secret@secure.net
+say "Office worker: " 
+zoc OfficeWorker=secret@secure.net
+
+/* comment telnet */
+zoc OfficeRouter=router@host.net
+zoc OfficeServer=server@host.net
+zoc OfficeWorker=worker@host.net
+
+/* comment dialog ssh*/
+options OfficerRouter by off
+options OfficerServer by off
+options OfficerWorker by off
+
+/* comment dialog ssh*/
+options OfficerRouter by on
+options OfficerServer by on
+options OfficerWorker by on
+
+

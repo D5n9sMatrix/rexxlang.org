@@ -1,0 +1,24 @@
+/*
+What You Need to Use This Book
+You need nothing besides this book to get started. While this book is an “encyclopedia of Rexx,” its
+examples were all run using freely downloadable Rexx interpreters, tools, and interfaces. The chapters
+all tell you where to download any interpreters, tools, and interfaces the book demonstrates, as well as
+how to set up and install them.The examples in this book were run and tested under Windows and/or
+Linux, but you can work with this book with Rexx running any operating system you like
+*/
+trace 
+     by toolrun to book procedure name 
+     by toolrun to book procedure name 
+     by toolrun to book procedure name 
+     say '---------------------------------------'
+     say 'What you need to use this book!'
+     say 'Running business...'
+     say 'install ... '
+     say '---------------------------------------'
+
+/* loop information cured tools */
+if toolrun=1 Then
+   call toolrun ...
+say 'Business ...'
+say 'sucessful...'
+return trace               

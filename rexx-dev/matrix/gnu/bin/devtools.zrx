@@ -1,0 +1,72 @@
+/*
+How This Book Is Structured
+Take a quick look at the table of contents, and you will see that this book is broken down into three
+broad sections:
+❑
+The book begins with a progressive tutorial and examples that cover all the basic aspects of the
+Rexx language. These eventually lead into more advanced scripting topics, such as how to write
+portable code and using optimal coding style. The last chapters of this section (Chapters 15
+through 18) cover the most common Rexx interfaces and tools. These introduce and demon-
+strate how to code Rexx in interfacing to operating systems, SQL databases, Web servers, GUIs,
+XML, and other tools.
+xxxiIntroduction
+❑The chapters of the second section of the book describe the different Rexx interpreters and the
+unique advantages of each. These chapters apply Rexx to different environments, such as hand-
+helds, mainframes, and various other platforms. They include tutorials on object-oriented Rexx,
+handheld scripting, and how to program in the Java environment with NetRexx.
+❑Finally, the book has a detailed and comprehensive reference section in the form of a series of
+appendices. This reference section is a complete stand-alone reference. You won’t need any
+other tome on your desk to write Rexx scripts.
+How you decide to progress through the book really depends on your current skill level with regard
+to Rexx and scripting and what you want to do. You can use this book as a tutorial by working with it
+straight through, or you can dive into particular chapters and topics that interest you. Or, just use the
+appendices as your complete Rexx reference. Any approach is fine—use the book in the way that is best
+for you.
+*/
+options officers procedure name arg parse /* write name files parse */
+options language procedure name arg parse /* write name language rexx parse */
+options devtools procedure name arg parse /* write name devtools files parse */
+
+x = 1
+y = 2
+
+if officers=1 then
+   say '-------------------------------------'
+   say 'Running round(x,y) motion logical obj'
+   say 'Atacker intersept logical values offs'
+   say 'Running signal latters pdf objectives'
+   say 'arguments parse...'
+   say '-------------------------------------'
+   say 'dialog form' by form arg parse
+   say 'running mtcars' procedure name
+   say 'latters mtcars' procedure name
+ 
+ return form
+
+
+if language=1 then
+   say '-------------------------------------'
+   say 'Running rexxd(x,y) motion logical obj'
+   say 'Atacker intersept logical values offs'
+   say 'Running signal latters pdf objectives'
+   say 'arguments parse...'
+   say '-------------------------------------'
+   say 'dialog form' by form arg parse
+   say 'running mtcars' procedure name
+   say 'latters mtcars' procedure name
+ 
+ return form
+
+
+if devtools=1 then
+   say '-------------------------------------'
+   say 'Running devtd(x,y) motion logical obj'
+   say 'Atacker intersept logical values offs'
+   say 'Running signal latters pdf objectives'
+   say 'arguments parse...'
+   say '-------------------------------------'
+   say 'dialog form' by form arg parse
+   say 'running mtcars' procedure name
+   say 'latters mtcars' procedure name
+ 
+return form

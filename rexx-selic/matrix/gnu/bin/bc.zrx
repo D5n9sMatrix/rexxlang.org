@@ -1,0 +1,55 @@
+/*
+Power and Flexibility
+That Rexx is easy to learn and use does not mean that it has limited features or is some sort of “beginner’s
+language.” Rexx competes, feature for feature, with any of the other major scripting languages. If it didn’t,
+it certainly would not be the primary scripting language for mainframes, nor would it have attained the
+widespread use it enjoys today on so many other platforms. Nor would there be many hundreds of thou-
+sands of Rexx users distributed around the world.*
+Ease of use and power traditionally force language trade-offs. It is easy to get one without the other, but
+difficult to achieve both. Rexx is specifically designed to combine the two. It achieves this goal through
+these principles:
+❑Simple syntax — Some very powerful languages rely extensively on special symbols, nonobvious
+default behaviors, default variables, and other programming shortcuts. But there is no rule that
+power can only be achieved in this manner. Rexx eschews complex “syntax programming” and
+encourages simpler, more readable programming based on English-language keyword instruc-
+tions and functions.
+❑Small command set, with functions providing the power — Rexx has a small core of only two dozen
+instructions. This simplicity is surrounded by the power of some 70 built-in functions. A well-
+defined, standard interface permits Rexx to call upon external function libraries. This allows
+you to extend the language yourself, and it means that many open-source extensions or libraries
+of routines are freely available. Rexx scripts also wield the full power of the operating system
+because they easily issue operating system commands.
+❑Free-form language — Rexx is not case-sensitive. It is a free-form language and is about as forgiving
+concerning placement of its source text as a programming language can be. This permits pro-
+grammers to self-describe programs by techniques such as indentation, readable comments,
+case variations, and the like. Rexx relieves programmers from concern about syntax and place-
+ment, and lets them concentrate on the programming problem they face.
+❑Consistent, reliable behavior — Rexx behaves “as one would assume” at every opportunity. Its
+early user community provided feedback to one “master developer” who altered the language
+to conform to typical human behavior. As the inventor states in his book defining Rexx: “The
+language user is usually right.” Rexx was designed to encourage good programming practice
+and then enhanced by user feedback to conform to human expectations.
+❑Modularity and structured programming — Rexx encourages and supports modularity and struc-
+tured programming. Breaking up large programming problems into discrete pieces and restricting
+program flow to a small set of language constructs contributes greatly to ease of use and a low
+error rate when developing large feature-full applications. These principles yield simplicity
+without compromising power.
+*/
+interpret syntax
+say '-----------------------------'
+say syntax 'jure...' arg parse
+say '-----------------------------'
+say 'develop...' arg parse
+say ...
+
+/*
+❑Fewer rules — Put the preceding points together, and you’ll conclude that Rexx has fewer rules
+than many programming languages. Developers concentrate on their programming problem,
+not on language trivia.
+❑Standardization — While there are at least nine free Rexx interpreters, eight adhere to the Rexx
+standards. This makes your scripts portable and your skills transferable. A standardized lan-
+guage is easier to use than one with numerous variants. Rexx has two strong, nearly identical
+standards. One is defined in the book The Rexx Language, or TRL-2, by Michael Cowlishaw
+(Prentice-Hall, 1990, second edition). The other is the 1996 standard from the American National
+Standards Institute, commonly referred to as ANSI-1996.
+*/

@@ -1,0 +1,8 @@
+/* Officer Server logical machines copy bots */
+say "exemple -> start@secure.net"
+say "exemple -> outer@secure.net"
+say "------------------------------------------------"
+say "Officer Server: "
+say "------------------------------------------------"
+zoc return secure.net
+say

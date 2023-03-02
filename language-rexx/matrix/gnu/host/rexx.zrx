@@ -1,0 +1,6 @@
+/* Officer comprehensive language zoc rexx develop builder server router worker */
+zoc return interpret.net call COMPREHENSIVE=language@rexx.net
+say "Example -> language@rexx.net"
+say "--------------------------------------------------------------------"
+say "COMPREHENSIVE: language!"
+say

@@ -1,0 +1,37 @@
+/*
+Introduction
+Rexx surrounds its small instruction with an extensive function library. Scripts leverage operating sys-
+tem commands, external interfaces, programs, and functions. Rexx is a “glue” language that ties it all
+together. Yet the language has few rules. Syntax is simple, minimal, flexible. Rexx doesn’t care about
+uppercase or lowercase or formatting or spacing. Rexx scripts don’t use special symbols and contain no
+punctuation.
+Power does not require coding complexity!
+If you’ve worked in the shell languages, you’ll breathe a sigh of relief that you’ve found a powerful lan-
+guage in which you can program now and then without trying to recall arcane language rules. If you’ve
+struggled with the syntax of languages such as Bash, Korn, Awk, or the C-shell, you’ll enjoy focusing on
+your programming problem instead of linguistic peculiarities. And if you’ve ever had to maintain some-
+one else’s Perl code, well . . . you might really be thankful for Rexx!
+This book contains everything you need to know to get started with Rexx. How to freely download and
+install the product. How to program in standard Rexx and object-oriented Rexx. How to program hand-
+helds. How to program Windows, Linux, Unix, and mainframes. How to program in the Java environ-
+ment in a Rexx-based language called NetRexx. How to script operating system commands, control Web
+servers and databases and graphical user interfaces (GUIs) and Extensible Markup Language (XML) and
+Apache and . . . you name it.
+Everything you need is in this one book—it’s virtually a “Rexx encyclopedia.” It teaches standard Rexx
+so that your skills apply to any platform—from handhelds to PCs and laptops to midrange servers run-
+ning any operating system to mainframes. Yet it goes beyond the basics to cover interface programming
+and advanced techniques. The book starts out easy, and is based on coding examples throughout to make
+learning fast, simple, and fun. But it’s comprehensive enough to go the distance and cover advanced
+scripting as well. And, you can freely download all the Rexx interpreters, tools, and interfaces it covers.
+Welcome to the world of free Rexx !
+*/
+glue call leave form forever matrix=scientific@ssh!connect.by
+queue matrix with glue
+queue matrix when glue
+queue matrix while glue
+say '--------------------------------------------------------'
+say 'Apache and ... you name it.'
+say 'Skills apply platform' call leave form
+say 'Freely dowload all books Rexx'
+say 'Interface Rexx'
+say '--------------------------------------------------------'
